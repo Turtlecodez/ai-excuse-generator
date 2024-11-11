@@ -1,0 +1,2 @@
+# AI Excuse Generator
+Ever had a time where you just couldn't come up with a good excuse for something? Look no further than Turtle's AI excuse generator! Type in what you need an excuse for and you'll get an excuse you can use in less than 10 seconds!

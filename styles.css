@@ -1,0 +1,78 @@
+body {
+    background-color: #010129;
+    color: #e0e0e0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    height: 80%;
+    align-items: center;
+}
+
+.input-area {
+      transform: translateX(-20px);
+      overflow-x: hidden;
+}
+
+.input-area, .output-area {
+    padding: 20px;
+    flex: 1;
+    max-width: 40%;
+    height: 100%;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.input-area input {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background: radial-gradient(#343434, #212121);
+    transform: translateX(-5px);
+    border: 4px solid #212121;
+    color: #e0e0e0;
+}
+
+.output-area {
+    border-left: 2px solid #444444;
+    padding-left: 20px;
+    transform: translateY(-50px);
+}
+
+#ai {
+    color: white;
+    background-color: black;
+    transform: translateY(15px);
+}
+
+#excuseOutput {
+    padding: 5px;
+    border: 2px solid;
+    border-color: linear-gradient(#767676, #565656);
+    border-radius: 10px;
+}
+
+.input-area button {
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #07946b;
+    transform: translate(30px, 50px);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.input-area button:hover {
+    background-color: #07A46b;
+}
